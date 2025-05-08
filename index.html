@@ -5,15 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .mylabel{
+        color: #06cef1;
+        font-size: 30px;
+    }
+    .myinput{
+        color: dodgerblue;
+        padding: 12px;
+        width: 320px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .mydiv{
+        background-color: lime;
+        align-items: center;justify-content: center;
+        width: 500px;
+        margin-left: 25%;
+    }
+</style>
 <body>
    <center><u><h1>FILL IN THE FORM CORRECTLY</h1></u></center>
-   <label for="">Enter name</label><br>
-   <input type="text" placeholder="enter name"><br>
-<label for="">Enter email</label><br>
-<input type="text" placeholder="email"><br>
-<label for="">Enter number</label><br>
-<input type="text" placeholder="phone number"><br>
-<select name="" id="">
+   <div class="mydiv">
+      <label for="" class="mylabel">Enter name</label><br>
+   <input type="text" placeholder="enter name" class="myinput"><br>
+<label for="" class="mylabel">Enter email</label><br>
+<input type="text" placeholder="email" class="myinput"><br>
+<label for="" class="mylabel">Enter number</label><br>
+<input type="text" placeholder="phone number" class="myinput"><br>
+<select name="" id="" class="myinput">
     <option value="">select your country</option>
     <option value="">US</option>
     <option value="">UK</option>
@@ -21,6 +41,6 @@
     <option value="">CANADA</option>
     <option value="">UGANDA</option>
 </select><br>
-<button>SUBMIT</button>
+<button class="myinput" style="background-color:rgb(255, 0, 0) ;">SUBMIT</button></div>
 </body>
 </html>
